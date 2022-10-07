@@ -1,0 +1,254 @@
+.main-div {
+  padding-top: 38px;
+  height: 100vh;
+  background-image: url("../images/image-hero-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 800px 750px;
+  background-position: right -180px top -80px;
+}
+
+.header-div {
+  padding-left: 165px;
+  padding-right: 165px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skilled-top {
+  height: 100%;
+}
+
+.dark-button {
+  background-color: #13183f;
+  color: #ffffff;
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+}
+
+.dark-button,
+.red-button,
+.small-box-getstarted,
+.purple-button {
+  cursor: pointer;
+}
+
+.first-container {
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+.first-elements-div {
+  width: 457px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.header-one {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 70px;
+  color: #13183f;
+}
+
+.paragraph-one {
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 30px;
+  line-height: 28px;
+  color: #83869a;
+}
+.red-button {
+  background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+  color: #ffffff;
+  margin-top: 40px;
+  width: 167px;
+  height: 63px;
+  border-radius: 28px;
+  border: none;
+}
+
+.div-bottom {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  padding-left: 165px;
+  padding-right: 165px;
+  max-width: 100%;
+  height: 100%;
+  padding-bottom: 140px;
+  background-color: #13183f;
+}
+
+.div-one {
+  margin-right: 20px;
+  padding-right: 52px;
+  padding-left: 32px;
+  padding-top: 64px;
+  margin-top: 70px;
+  width: 310px;
+  height: 322px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+}
+
+.checkout {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.div-two,
+.div-three,
+.div-four,
+.div-five,
+.div-six {
+  margin-top: 70px;
+  margin-right: 20px;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 310px;
+  height: 322px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0px 25px 50px 0px #06168d0b;
+}
+
+.small-box-headers {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30.24px;
+  color: #13183f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.small-box-paragraphs {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #83869a;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.small-box-getstarted {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #f74780;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.first-three-cubes,
+.second-three-cubes {
+  display: flex;
+}
+
+.footer-div {
+  padding-left: 165px;
+  padding-right: 165px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #13183f;
+}
+.skilled-bottom {
+  height: 29px;
+}
+.purple-button {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  color: #ffffff;
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+}
+
+.small-icons {
+  width: 56px;
+  height: 56px;
+  margin-top: -40px;
+}
+
+/* Hover effects */
+
+button.red-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+button.dark-button:hover {
+  background: #666ca3;
+}
+button.purple-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1120px) {
+  .main-div {
+    background-size: 60%;
+  }
+  .first-elements-div {
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  .first-three-cubes,
+  .second-three-cubes {
+    flex-wrap: wrap;
+  }
+
+  .first-three-cubes,
+  .second-three-cubes {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header-div,
+  .first-container {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .main-div {
+    background-position: right -180px top -30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dark-button {
+    width: 20%;
+  }
+  .main-div {
+    background-image: none;
+  }
+  .first-elements-div {
+    margin: 0 auto;
+  }
+}
